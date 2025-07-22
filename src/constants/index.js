@@ -44,12 +44,12 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Book Turf",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "About us",
     url: "#how-to-use",
   },
   {
@@ -76,6 +76,42 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+
+export const pricing = [
+  {
+    id: "0",
+    title: "1 hour",
+    description: "An hour of un-disturbed playtime",
+    price: "999",
+    features: [
+      "Experiece the best turf in town",
+      "Personalized recommendations in cafeteria",
+      "Extension of playtime available for a discounted price",
+    ],
+  },
+  {
+    id: "1",
+    title: "2 hours",
+    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    price: "1800",
+    features: [
+      "Enjoy cafeteria services",
+      "Play non-stop on imported quality grass",
+      "Extension of playtime available for a discounted price",
+    ],
+  },
+  {
+    id: "2",
+    title: "4 hours",
+    description: "Competetive mode playtime",
+    price: 3500,
+    features: [
+      "Discounted prices for cafeteria and other game services",
+      "Booking 3 times a week under this offer gives bonus one hour",
+      "Perks and vouchers added to account for future use",
+    ],
+  },
+];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -205,41 +241,7 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-];
+
 
 export const benefits = [
   {

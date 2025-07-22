@@ -7,6 +7,8 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import { CartProvider } from "./components/CartContext";
+
 
 const App = () => {
   return (
@@ -14,12 +16,13 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
-        <Benefits />
-        <Collaboration />
-        <Services />
         <Pricing />
+        <CartProvider/>
+        <Benefits />
+        <Services />
         <Roadmap />
         <Footer />
+
       </div>
 
       <ButtonGradient />

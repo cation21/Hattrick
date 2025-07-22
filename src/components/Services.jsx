@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="A turf made for winners."
+          text="Hattrick unlocks the potential of every player with premium turf and facilities."
         />
 
         <div className="relative">
@@ -35,7 +35,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Smartest AI</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Hattrick unlocks the potential of every player with premium turf and facilities. Experience the best in class with our AI
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (

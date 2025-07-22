@@ -19,7 +19,7 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div className="h3">$</div>
+                <div className="h3 text-4xl mr-1">₹</div>
                 <div className="text-[5.5rem] leading-none font-bold">
                   {item.price}
                 </div>
@@ -29,10 +29,10 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            onClick={() => addToCart(item)}
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            Add to Cart
           </Button>
 
           <ul>
