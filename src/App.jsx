@@ -9,7 +9,6 @@ import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 
 
-
 const App = () => {
   return (
     <>
@@ -17,7 +16,9 @@ const App = () => {
         <Header />
         <Hero />
         <Pricing />
-        <Benefits />  
+        <Collaboration />
+        <Benefits />
+
         <Footer />
 
       </div>

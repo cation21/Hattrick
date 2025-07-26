@@ -44,13 +44,13 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Book Turf",
+    title: "Pricing",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "About us",
-    url: "#how-to-use",
+    title: "Booking",
+    url: "#collaboration",
   },
   {
     id: "3",
