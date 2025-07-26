@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
-import { CartProvider } from "./components/CartContext";
+
 
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
         <Header />
         <Hero />
         <Pricing />
-        
+        <Benefits />  
         <Footer />
 
       </div>
