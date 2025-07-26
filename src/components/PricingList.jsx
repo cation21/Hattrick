@@ -32,7 +32,7 @@ const PricingList = () => {
             onClick={() => addToCart(item)}
             white={!!item.price}
           >
-            Add to Cart
+            Book Now
           </Button>
 
           <ul>
